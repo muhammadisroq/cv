@@ -1,0 +1,100 @@
+/* agar tidak ada garis putih di pinggir */
+body{
+	margin: 0;
+	padding: 0;
+}
+
+/* layout profil */
+.left-container{
+	position: fixed;
+	width: 400px;
+	height: 100vh;
+	background-color: #2C3E50;
+}
+
+.photo-contact{
+	position: absolute;
+	top: 100px;				
+	text-align: center;
+}
+
+.photo{
+	width: 50%;
+	border-radius: 50%;
+}
+
+.contact-btn{
+	width: 50%;
+	background-color: white;
+	border-radius: 14px;
+	margin-bottom: 14px;
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding: 10px; 			/*jarak setiap sisi */
+}
+
+/*membuat perubahan warna pada button ketika di arahin */
+.contact-btn:hover{
+	background-color: black;
+	color: white;
+	transition: 1s;
+}
+
+.right-container{
+	position: absolute;
+	left: 400px;
+}
+
+.top-bar{
+	padding-top: 50px;
+	padding-left: 100px;
+}
+
+.title{
+	font-size: 1.4rem;
+	font-style: italic;
+}
+
+.list-menu{
+	float: right;
+	padding-left: 500px;
+	padding-top: 0px;
+}
+ 
+.menu{
+	font-size: 1.2rem;
+	/*membuat jarak antar menu*/
+	padding-right: 15px;
+}
+
+/*menghilangkan underline pada link */
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*memanggil id menggunakan #*/
+#profile{
+	padding-top: 100px;
+	padding-left: 100px;
+}
+
+#about{
+	padding-top: 100px;
+	padding-left: 100px;	
+}
+
+#experience{
+	padding-top: 250px;
+	padding-left: 100px;
+}
+
+#contact{
+	padding-top: 250px;
+	padding-left: 100px;	
+}
+
+#footer{
+	padding-top: 250px;
+	text-align: center;
+}
